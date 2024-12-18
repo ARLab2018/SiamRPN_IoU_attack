@@ -17,13 +17,11 @@ during the attack.
 
  #### Result for IoU Attack on SiamRPN++ on VOT2018 Dataset with multiple model iterations
 |                   | Original Model  |  0.01 Weight Decay  | 0.001 Weight Decay | 32 Anchors | 96 Anchors | Color OFF | Blur ON |
-| ------------------| :------------:  | :----:  |:----: |:----: |:----: |:----: |:----: |:----:
-| Accuracy          | 0.661 | 0.336 | 0.278 | 0.306 | 0.308 | 0.303 | 0.285 |
-| Robustness        | 1.370 | 1.182 | 1.397 | 1.290 | 1.424 | 1.316 | 2.892 |
-| EAO               | 0.131 | 0.103 | 0.079 | 0.090 | 0.087 | 0.077 | 0.037 |
+| ------------------| :------------:  | :---------------:   |:----------------:  |:--------:  |:---------: |:--------: |:-----:  |
+| Accuracy          | 0.661           | 0.336               | 0.278              | 0.306      | 0.308      | 0.303     | 0.285   |
+| Robustness        | 1.370           | 1.182               | 1.397              | 1.290      | 1.424      | 1.316     | 2.892   |
+| EAO               | 0.131           | 0.103               | 0.079              | 0.090      | 0.087      | 0.077     | 0.037   |
  
-:herb: **All raw results are available.**  [[Google_drive]](https://drive.google.com/drive/folders/1WjYJzsLEJZkB1dw-17ZLJNYZ9THK-jL4?usp=sharing)
-
 
 ## Code
 :herb: **The code of IoU attack for SiamRPN++ is released!!**
