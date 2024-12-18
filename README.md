@@ -68,11 +68,9 @@ If any part of our paper and code is helpful to your work, please generously cit
 Thank you :)
 
 ## Reference
-We choose three representative trackers, SiamRPN++, DiMP and LTMU. 
-The original code of these trackers are list as follows:
+We choose SiamRPN++ for the object tracking objective. 
+The original code of this tracker is listed as follows:
 - SiamRPN++: https://github.com/STVIR/pysot
-- DiMP: https://github.com/visionml/pytracking
-- LTMU: https://github.com/Daikenan/LTMU
 
 We also refer to the code of Boundary Attack for IoU attack.
 - Boundary Attack: https://github.com/greentfrapp/boundary-attack
