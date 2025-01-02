@@ -8,7 +8,7 @@ export PYTHONPATH=/path/to/pysot:$PYTHONPATH
 
 ## Prepare training dataset
 Prepare training dataset, detailed preparations are listed in [training_dataset](training_dataset) directory.
-* [VID]((https://xdshang.github.io/docs/imagenet-vidvrd.html#:~:text=Useful%20downloading%20links,evaluation%20codes))
+* [VID]([https://xdshang.github.io/docs/imagenet-vidvrd.html#:~:text=Useful%20downloading%20links,evaluation%20codes])
 
 ## Training
 
