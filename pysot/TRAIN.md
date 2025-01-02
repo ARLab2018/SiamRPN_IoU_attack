@@ -5,6 +5,8 @@ This implements training of SiamRPN with backbone architectures, such as ResNet,
 ```bash
 export PYTHONPATH=/path/to/pysot:$PYTHONPATH
 ```
+## Download pretrained backbones
+Download pretrained backbones from [Google Drive](https://drive.google.com/drive/folders/1DuXVWVYIeynAcvt9uxtkuleV6bs6e3T9) and put them in `pretrained_models` directory
 
 ## Prepare training dataset
 Prepare training dataset, detailed preparations are listed in [training_dataset](training_dataset) directory.
