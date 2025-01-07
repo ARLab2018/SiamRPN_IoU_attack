@@ -63,22 +63,7 @@ python -u ../../tools/enhanced_IoU.py 	\
 	--config config.yaml	  # config file
 ```
 
-## Demo
 
-<img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/car_clean.gif" width='300'/>   <img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/car_attack.gif" width='300'/><br/>
-&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; <img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/legend.png" width='300'/><br/>
-
-
-## Citation
-If any part of our paper and code is helpful to your work, please generously citing: 
-```
-@inproceedings{jia-cvpr21-iouattack,
-  title={IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking},
-  author={Jia, Shuai and Song, Yibing and Ma, Chao and Yang, Xiaokang},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2021}
-}
-```
 
 Thank you :)
 
@@ -92,5 +77,4 @@ We also refer to the code of Boundary Attack for IoU attack.
 
 Thanks for their wonderful works!
 
-## License
-Licensed under an MIT license.
+
