@@ -24,6 +24,7 @@ during the attack.
  
  #### Result for Enhanced IoU Attack on SiamRPN++ on VOT2018
  |			| Original IoU	| Enhanced IoU	|
+ | ------------------	| :------------:| :------------:|
  | Total Frames Lost	| 75		| 78		|
  | Average FPS		| 6.1		| 15.1		|
  | Average Time (s)	| 126.2		| 22.8		|
