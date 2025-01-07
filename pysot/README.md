@@ -53,14 +53,6 @@ export PYTHONPATH=/path/to/pysot:$PYTHONPATH
 ### Download models
 Download models in [PySOT Model Zoo](MODEL_ZOO.md) and put the model.pth in the correct directory in experiments
 
-### Webcam demo
-```bash
-python tools/demo.py \
-    --config experiments/siamrpn_r50_l234_dwxcorr/config.yaml \
-    --snapshot experiments/siamrpn_r50_l234_dwxcorr/model.pth
-    # --video demo/bag.avi # (in case you don't have webcam)
-```
-
 ### Download testing datasets
 Download datasets and put them into `testing_dataset` directory. Jsons of commonly used datasets can be downloaded from [Google Drive](https://drive.google.com/drive/folders/10cfXjwQQBQeu48XMf2xc_W1LucpistPI) or [BaiduYun](https://pan.baidu.com/s/1js0Qhykqqur7_lNRtle1tA#list/path=%2F). If you want to test tracker on new dataset, please refer to [pysot-toolkit](https://github.com/StrangerZhang/pysot-toolkit) to setting `testing_dataset`. 
 
