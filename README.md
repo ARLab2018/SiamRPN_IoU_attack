@@ -54,6 +54,15 @@ python -u ../../tools/test_IoU_attack.py 	\
 
 For the adversarial attack of other datasets, you should change the dataset name as mentioned above.
 
+Test Enhanced IoU attack
+```
+cd pysot/experiments/siamrpn_r50_l234_dwxcorr
+python -u ../../tools/enhanced_IoU.py 	\
+	--snapshot model.pth 	\ # model path
+	--dataset VOT2018 	\ # dataset name
+	--config config.yaml	  # config file
+```
+
 ## Demo
 
 <img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/car_clean.gif" width='300'/>   <img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/car_attack.gif" width='300'/><br/>
